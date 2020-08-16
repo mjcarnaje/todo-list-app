@@ -1,0 +1,48 @@
+.list-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.flip-move {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.list {
+	color: #fff;
+	width: 80%;
+	background-color: rgba(168, 218, 220, 0.4);
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 10px;
+	margin: 5px 0;
+}
+
+.list p {
+	margin: 0;
+	padding: 5px 0 8px;
+}
+.list span {
+	cursor: pointer;
+}
+.faicons {
+	transition: all 0.2s;
+}
+.faicons:hover {
+	transform: translateY(-2px);
+}
+
+.list p input {
+	background-color: transparent;
+	border: none;
+	color: #fff;
+	font-size: inherit;
+}
+.list p input:focus {
+	outline: none;
+}
